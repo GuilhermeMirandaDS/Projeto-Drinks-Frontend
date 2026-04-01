@@ -1,5 +1,7 @@
 <script setup lang="ts">
-import { useRoute } from 'vue-router'
+import { useSearchStore } from '@/stores/search';
+
+const searchStore = useSearchStore()
 </script>
 
 <template>
@@ -11,7 +13,11 @@ import { useRoute } from 'vue-router'
         </div>
 
         <div class="header-search">
-            <input class="search-input" type="text" placeholder="Search your drink...">
+            <input class="search-input"
+             type="text" 
+             placeholder="Search your drink..."
+             v-model="searchStore.searchQuery"
+            >
         </div>
 
         <div class="header-menu-item">
