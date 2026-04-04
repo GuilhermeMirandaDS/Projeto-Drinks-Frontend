@@ -61,6 +61,7 @@ footer .col-md-3{
 
 .footer-content{
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -487,6 +488,7 @@ body{
     .letter-filter{
         overflow: auto;
         width: 100%;
+        padding-top: 20px;
     }
 
     .filter-item{
@@ -519,4 +521,20 @@ body{
         padding-left: 1rem;
     }
 
+}
+
+footer .logos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: row;
+}
+
+footer .logos img{
+    max-width: 60px;
+}
+
+footer a{
+    color: #f1f1f1;
 }

@@ -77,7 +77,7 @@
                         <h3>Ingredients</h3>
                         <ul>
                             <li v-for="(ing, index) in getIngredientes(drink)" :key="index">
-                                <a :href="`https://www.google.com/search?q=${encodeURIComponent(ing)}`" target="_blank">{{ ing }}</a>
+                                <a :href="`https://www.google.com/search?q=${encodeURIComponent(ing)}%20ingredient`" target="_blank">{{ ing }}</a>
                             </li>
                         </ul>
                     </div>
