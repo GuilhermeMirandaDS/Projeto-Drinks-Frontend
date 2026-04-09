@@ -2,7 +2,7 @@
     <footer>
         <div class="col-md-2">
             <router-link to="/">
-                <img class="logo-page" src="../assets/logos/logo.ico" alt="Drinks">
+                <img class="logo-page" src="../assets/logos/logo.png" alt="Drinks">
             </router-link>
         </div>
 
